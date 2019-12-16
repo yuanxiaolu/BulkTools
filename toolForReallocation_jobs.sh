@@ -1,4 +1,4 @@
-BASE_PATH=/data/测试人像库数据/formatted
+BASE_PATH={workDir}
 cd $BASE_PATH
 TOTAL_NUM=`ls -l | grep "^-" | wc -l`
 EACH_NUM=10000
